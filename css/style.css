@@ -1,0 +1,66 @@
+/* Mix */
+.page {
+
+  font-size: 16px;
+  width: 100%;
+}
+.wrapper-small {
+
+}
+/* /Mix */
+
+
+
+/* Header */
+
+/* Header top */
+.header-top {
+  height: 80px;
+  background-color: blue;
+}
+/* Logo */
+.logo
+/* /Logo */
+/* Navbar */
+.navbar__item {
+}
+.navbar__link {
+  line-height: 80px;
+}
+/* /Navbar */
+/* Hamburger */
+.hamburger {
+
+}
+.hamburger__btn {
+
+}
+.hamburger_icon {
+
+}
+
+/* Jumbo */
+.jumbo {
+
+  background-color: red;
+}
+.jumbo__title {
+
+}
+
+.jumbo__text {
+
+}
+/* /Header *
+/
+/* Main */
+/* Mix Main */
+.main__section {
+
+}
+/* Title text */
+.main__title {
+  font-size: 2.25em;
+  font-weight: 700;
+  color: #fff;
+}
