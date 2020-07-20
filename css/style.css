@@ -8,13 +8,53 @@
   width: 80%;
   margin: 0px auto;
 }
+/* Button */
+.btn-navbar {
+  padding: 8px 10px;
+  border: 1px solid #0069FF;
+  border-radius: 5px;
+  color: #0069FF;
+}
+.btn-navbar:hover {
+  background-color: #0069FF;
+  border-color: #0069FF;
+  color: white;
+  text-decoration: none;
+}
+.btn-account {
+  height: 35px;
+  width: 100%;
+  margin-bottom: 10px;
+  background-color: #579aff;
+  border: 1px solid #579aff;
+  border-radius: 5px;
+  color: white;
+  font-weight: 600;
+}
+.btn-google {
+  position: relative;
+  height: 40px;
+  width: 100%;
+  margin-bottom: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #FFF;
+  box-shadow: 5px 5px 5px -4px rgba(0,0,0,0.28);
+  color: #626262;
+  font-size: 1.15;
+  font-weight: 600;
 
+}
+.btn-google__icon {
+  position: absolute;
+  max-width: 20px;
+  left: 1%;
+}
+/* Button */
 /* /Mix */
 
 
-
 /* Header */
-
 /* Header top */
 .header-top {
   height: 65px;
@@ -47,18 +87,6 @@
   text-decoration: none;
   color:#0069FF;
 }
-.navbar__button {
-  padding: 8px 10px;
-  border: 1px solid #0069FF;
-  border-radius: 5px;
-  color: #0069FF;
-}
-.navbar__button:hover {
-  background-color: #0069FF;
-  border-color: #0069FF;
-  color: white;
-  text-decoration: none;
-}
 /* /Navbar */
 /* Hamburger */
 .hamburger__btn {
@@ -79,6 +107,7 @@
   color: #fff;
 }
 .jumbo__text {
+  margin-bottom: 15px;
   font-size: 1.2em;
   font-weight: 400;
   color: #b9cbff;
@@ -103,40 +132,9 @@
   margin-bottom: 10px;
   padding: 20px;
 }
-.btn-account {
-  height: 35px;
-  width: 100%;
-  margin-bottom: 10px;
-  background-color: #579aff;
-  border: 1px solid #579aff;
-  border-radius: 5px;
-  color: white;
-  font-weight: 600;
-}
-.btn-google {
-  position: relative;
-  height: 40px;
-  width: 100%;
-  margin-bottom: 10px;
-  border: none;
-  border-radius: 5px;
-  background-color: #FFF;
-  box-shadow: 5px 5px 5px -4px rgba(0,0,0,0.28);
-  color: #626262;
-  font-size: 1.15;
-  font-weight: 600;
-
-}
-.btn-google__icon {
-  position: absolute;
-  max-width: 20px;
-  left: 1%;
-}
 /* /Jumbo form */
-
 /* /Jumbo */
 /* /Header */
-
 
 /* Main */
 /* Mix Main */
@@ -151,7 +149,6 @@
   text-align: center;
 }
 /* /Mix Main */
-
 /* Partner */
 .partner-logo {
   height: 50px;
