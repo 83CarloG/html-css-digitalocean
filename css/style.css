@@ -4,7 +4,8 @@
   width: 100%;
 }
 .wrapper-small {
-
+  width: 80%;
+  margin: 0px auto;
 }
 /* /Mix */
 
@@ -55,14 +56,14 @@
 /* Main */
 /* Mix Main */
 .main__section {
-  height: 400px;
+  min-height: 200px;
   background-color: orange;
 }
 .main-section--green {
   background-color: green;
 }
-.title__ {
-
+.text-box{
+  text-align: center;
 }
 /* /Mix Main */
 
@@ -72,3 +73,59 @@
   margin-bottom: 20px;
   background-color: black;
 }
+/* /Partner */
+/* Configuration */
+.configuration__list {
+  text-decoration: none;
+}
+.configuration__items {
+
+}
+.configuration-box {
+
+}
+.configuration-box__item {
+  background-color: white;
+}
+/* /Configuration */
+/* Developers */
+.carousel {
+  height: 400px;
+}
+.carousel__img {
+  height: 300px;
+  background-color: red;
+}
+/* /Developers */
+/* Features */
+
+/* /Features */
+/* Customers */
+
+/* /Customers */
+/* Teams */
+
+/* /Teams */
+/* Start */
+
+/* /Start */
+/* /Main */
+
+/* Footer */
+/* Footer left */
+.social__list {
+  text-decoration: none;
+  padding-left: 0;
+}
+.social___item {
+  display: inline-block;
+}
+/* /Footer left */
+/* Footer right */
+.footer-right__list {
+  list-style: none;
+  padding-left: 0;
+}
+/* /Footer right */
+
+/* /Footer */
