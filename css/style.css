@@ -2,11 +2,13 @@
 .page {
   font-size: 16px;
   width: 100%;
+  font-family: 'Roboto', sans-serif;
 }
 .wrapper-small {
   width: 80%;
   margin: 0px auto;
 }
+
 /* /Mix */
 
 
@@ -15,17 +17,47 @@
 
 /* Header top */
 .header-top {
-  height: 80px;
-  background-color: blue;
+  height: 65px;
+}
+.header-top--fix {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  width: 100%;
+  height: 65px;
+  background-color: #fff;
 }
 /* Logo */
-.logo
+.logo__link {
+  line-height: 65px;
+}
+.logo__img {
+  max-height: 1.75em;
+}
 /* /Logo */
 /* Navbar */
 .navbar__item {
+  line-height: 65px;
+  font-size: 0.875em;
+  font-weight: bold;
+  color: #031B4F;
 }
-.navbar__link {
-  line-height: 80px;
+.navbar__link:hover {
+  text-decoration: none;
+  color:#0069FF;
+}
+.navbar__button {
+  padding: 8px 10px;
+  border: 1px solid #0069FF;
+  border-radius: 5px;
+  color: #0069FF;
+}
+.navbar__button:hover {
+  background-color: #0069FF;
+  border-color: ##0069FF;
+  color: white;
+  text-decoration: none;
 }
 /* /Navbar */
 /* Hamburger */
@@ -33,10 +65,8 @@
 
 }
 .hamburger__btn {
-
-}
-.hamburger_icon {
-
+  font-size: 1.5em;
+  line-height: 65px;;
 }
 /* /Hamburger */
 /* Jumbo */
@@ -81,10 +111,10 @@
 .configuration__items {
 
 }
-.configuration-box {
+.main-box {
 
 }
-.configuration-box__item {
+.main-box__item {
   background-color: white;
 }
 /* /Configuration */
