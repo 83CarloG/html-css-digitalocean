@@ -55,15 +55,12 @@
 }
 .navbar__button:hover {
   background-color: #0069FF;
-  border-color: ##0069FF;
+  border-color: #0069FF;
   color: white;
   text-decoration: none;
 }
 /* /Navbar */
 /* Hamburger */
-.hamburger {
-
-}
 .hamburger__btn {
   font-size: 1.5em;
   line-height: 65px;;
@@ -71,14 +68,72 @@
 /* /Hamburger */
 /* Jumbo */
 .jumbo {
-  background-color: red;
+  margin-top:65px;
+  padding: 50px 0;
+  background: rgb(0,71,197);
+  background: linear-gradient(180deg, rgba(0,71,197,1) 0%, rgba(0,30,153,1) 100%);
 }
 .jumbo__title {
-
+  font-size: 3.5em;
+  font-weight: 700;
+  color: #fff;
 }
 .jumbo__text {
+  font-size: 1.2em;
+  font-weight: 400;
+  color: #b9cbff;
+}
+/* Jumbo form */
+.form--jumbo {
+  padding: 20px;
+  border-radius: 5px;
+  background-color: #fff;
+}
+.form__title {
+  font-size: 2em;
+  font-weight: 700;
+  text-align: center;
+  margin-top: 0px;
+  color: #061e4f;
+}
+.form__title--blue {
+  color: #0069FF;
+}
+.form__field {
+  margin-bottom: 10px;
+  padding: 20px;
+}
+.btn-account {
+  height: 35px;
+  width: 100%;
+  margin-bottom: 10px;
+  background-color: #579aff;
+  border: 1px solid #579aff;
+  border-radius: 5px;
+  color: white;
+  font-weight: 600;
+}
+.btn-google {
+  position: relative;
+  height: 40px;
+  width: 100%;
+  margin-bottom: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #FFF;
+  box-shadow: 5px 5px 5px -4px rgba(0,0,0,0.28);
+  color: #626262;
+  font-size: 1.15;
+  font-weight: 600;
 
 }
+.btn-google__icon {
+  position: absolute;
+  max-width: 20px;
+  left: 1%;
+}
+/* /Jumbo form */
+
 /* /Jumbo */
 /* /Header */
 
