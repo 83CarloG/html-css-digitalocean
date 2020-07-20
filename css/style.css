@@ -1,6 +1,5 @@
 /* Mix */
 .page {
-
   font-size: 16px;
   width: 100%;
 }
@@ -38,29 +37,38 @@
 .hamburger_icon {
 
 }
-
+/* /Hamburger */
 /* Jumbo */
 .jumbo {
-
   background-color: red;
 }
 .jumbo__title {
 
 }
-
 .jumbo__text {
 
 }
-/* /Header *
-/
+/* /Jumbo */
+/* /Header */
+
+
 /* Main */
 /* Mix Main */
 .main__section {
+  height: 400px;
+  background-color: orange;
+}
+.main-section--green {
+  background-color: green;
+}
+.title__ {
 
 }
-/* Title text */
-.main__title {
-  font-size: 2.25em;
-  font-weight: 700;
-  color: #fff;
+/* /Mix Main */
+
+/* Partner */
+.partner-logo {
+  height: 50px;
+  margin-bottom: 20px;
+  background-color: black;
 }
