@@ -5,12 +5,11 @@
   font-family: 'Roboto', sans-serif;
 }
 .wrapper-small {
-  width: 65%;
+  width: 50%;
   margin: 0px auto;
 }
 .wrapper-carousel {
-  width: 40%;
-  margin: 0px auto;
+  position: relative
 }
 /* Button */
 .btn-navbar {
@@ -101,9 +100,11 @@
 /* Jumbo */
 .jumbo {
   margin-top:65px;
-  padding: 50px 0;
-  background: rgb(0,71,197);
-  background: linear-gradient(180deg, rgba(0,71,197,1) 0%, rgba(0,30,153,1) 100%);
+  padding: 120px 0;
+  background-image: url(../img/bg-jumbotron.svg);
+  background-repeat: no-repeat;
+
+  background-size: cover;
 }
 .jumbo__title {
   font-size: 3.5em;
@@ -148,8 +149,15 @@
 .main__section--grey {
   background-color: #f3f5f9;
 }
+.main__section--gradient {
+  background: rgb(0,71,197);
+  background: linear-gradient(180deg, rgba(0,71,197,1) 0%, rgba(0,30,153,1) 100%);
+}
 .main__section--p40 {
   padding: 40px 0;
+}
+.main__section--text-white {
+  color: #fff;
 }
 .text-box{
   margin: 60px auto;
@@ -159,6 +167,9 @@
   font-size: 2em;
   font-weight: 700;
   color: #031c4e;
+}
+.text-box__title--white {
+  color: #fff;
 }
 .text-box__p {
   font-size: 1.25em;
@@ -210,17 +221,53 @@
 /* /Configuration */
 /* Developers */
 .carousel {
-
+  position: absolute;
+  transform: translate(-50% , -50%);
+  top: 50%;
 }
 .carousel__img {
-  max-width: 400px;
+  max-height: 700px;
+}
+.carousel-circle {
+  margin: 20px 0;
+}
+.corousel-circle__img  {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border: 1px solid #006aff;
+  border-radius: 50%;
+}
+.corousel-circle__img--full {
+  background-color: #006aff;
 }
 /* /Developers */
 /* Features */
 
 /* /Features */
 /* Customers */
-
+.customers__list{
+  font-size: 0.8em;
+}
+.customers__items {
+  padding: 10px;
+  border-bottom: 1px solid white;
+}
+.customers__items--no-border {
+  border-bottom: none;
+}
+.customers___cod {
+  color: #f9fafd;
+  font-weight: 700;
+}
+.customers__country {
+  color: #aebbe0;
+  font-weight: 400;
+}
+.customers__link {
+  color: #00abc7;
+  font-weight: 600;
+}
 /* /Customers */
 /* Teams */
 
