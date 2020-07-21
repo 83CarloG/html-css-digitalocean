@@ -141,19 +141,23 @@
 .main__section {
   min-height: 200px;
 }
-.main-section--grey {
+.main__section--grey {
   background-color: #f3f5f9;
 }
 .main__section--p40 {
   padding: 40px 0;
 }
 .text-box{
+  margin: 60px auto;
   text-align: center;
 }
 .text-box__title {
+  font-size: 2em;
+  font-weight: 700;
   color: #031c4e;
 }
 .text-box__p {
+  font-size: 1.25em;
   color: #5c6a88;
 }
 /* /Mix Main */
@@ -181,16 +185,23 @@
 /* /Partner */
 /* Configuration */
 .configuration__list {
-  text-decoration: none;
+  list-style: none;
+  border-left: 1px solid #75809a;
+  padding:  15px;
 }
 .configuration__items {
-
-}
-.main-box {
+  margin: 20px 0px;
+  color: #75809a;
 
 }
 .main-box__item {
-  background-color: white;
+  margin-bottom: 40px;
+}
+.main-box__title {
+  margin top: 25px;
+}
+.main-box__text {
+  font-weight: 400;
 }
 /* /Configuration */
 /* Developers */
