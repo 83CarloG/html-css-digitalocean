@@ -140,20 +140,43 @@
 /* Mix Main */
 .main__section {
   min-height: 200px;
-  background-color: orange;
 }
-.main-section--green {
-  background-color: green;
+.main-section--grey {
+  background-color: #f3f5f9;
+}
+.main__section--p40 {
+  padding: 40px 0;
 }
 .text-box{
   text-align: center;
 }
+.text-box__title {
+  color: #031c4e;
+}
+.text-box__p {
+  color: #5c6a88;
+}
 /* /Mix Main */
 /* Partner */
+.partner-title {
+  margin-bottom: 30px;
+  font-weight: 400;
+}
 .partner-logo {
-  height: 50px;
   margin-bottom: 20px;
-  background-color: black;
+  padding: auto 15px;
+}
+.partner-logo__img {
+  min-width: 120px;
+  max-width: 150px;
+}
+.fa-angle-right {
+  vertical-align: middle;
+  margin-left: 5px;
+}
+.partner-p {
+  color: #006aff;
+  font-weight: 700;
 }
 /* /Partner */
 /* Configuration */
