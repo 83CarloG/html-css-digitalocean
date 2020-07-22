@@ -4,12 +4,29 @@
   width: 100%;
   font-family: 'Roboto', sans-serif;
 }
+a:hover {
+  text-decoration: none;
+}
 .wrapper-small {
-  width: 50%;
+  max-width: 40%;
   margin: 0px auto;
+}
+@media screen and (max-width: 992px) {
+  .wrapper-small {
+    min-width: 80%;
+  }
+}
+@media screen and (max-width: 768px) {
+  .wrapper-small {
+    min-width: 100%;
+  }
 }
 .wrapper-carousel {
   position: relative
+}
+.fas-links {
+  vertical-align: middle;
+  margin-left: 5px;
 }
 /* Button */
 .btn-navbar {
@@ -52,6 +69,14 @@
   position: absolute;
   max-width: 20px;
   left: 1%;
+}
+.btn-start {
+  padding: 8px 10px;
+  background-color: #fff;
+  border: 1px solid #fff;
+  border-radius: 5px;
+  color: ##0069FF;
+  font-weight: 700;
 }
 /* Button */
 /* /Mix */
@@ -159,7 +184,7 @@
 .main__section--text-white {
   color: #fff;
 }
-.text-box{
+.text-box {
   margin: 60px auto;
   text-align: center;
 }
@@ -189,10 +214,6 @@
   min-width: 120px;
   max-width: 150px;
 }
-.fa-angle-right {
-  vertical-align: middle;
-  margin-left: 5px;
-}
 .partner-p {
   color: #006aff;
   font-weight: 700;
@@ -207,7 +228,6 @@
 .configuration__items {
   margin: 20px 0px;
   color: #75809a;
-
 }
 .main-box__item {
   margin-bottom: 40px;
@@ -220,10 +240,10 @@
 }
 /* /Configuration */
 /* Developers */
-.carousel {
+.fas-carousel {
+  width: 50px;
+  height: 100px;
   position: absolute;
-  transform: translate(-50% , -50%);
-  top: 50%;
 }
 .carousel__img {
   max-height: 700px;
@@ -246,8 +266,9 @@
 
 /* /Features */
 /* Customers */
-.customers__list{
+.customers__list {
   font-size: 0.8em;
+  margin-bottom: 30px;
 }
 .customers__items {
   padding: 10px;
@@ -267,10 +288,28 @@
 .customers__link {
   color: #00abc7;
   font-weight: 600;
+  text-align: end;
 }
 /* /Customers */
 /* Teams */
-
+.rockerbox {
+  width: 100%;
+  background-color: #fff;
+  padding: 40px 0;
+}
+.rockerbox__img {
+  display: inline-block;
+  max-width: 250px;
+  margin-bottom: 20px;
+}
+.rockerbox__quote {
+  font-size: 1.5em;
+  color: #5c6a88;
+}
+.rockerbox__cit {
+  margin-bottom: 0px;
+  font-weight: 700;
+}
 /* /Teams */
 /* Start */
 
@@ -278,19 +317,45 @@
 /* /Main */
 
 /* Footer */
+.footer {
+  padding: 40px 0;
+  background-color: #031C4E;
+  color: #a1a9b9;
+}
 /* Footer left */
+.footer-left {
+  padding-left: -15px;
+}
+.footer-left__logo {
+  margin-bottom: 10px;
+}
 .social__list {
   text-decoration: none;
   padding-left: 0;
 }
-.social___item {
+.social__item {
+  font-size: 1.5em;
   display: inline-block;
+  margin-right: 15px;
+  color: #a1a9b9;
+}
+.social__item:hover {
+  color: #fff;
 }
 /* /Footer left */
 /* Footer right */
+.footer__right {
+  margin-left: 30px;
+}
+.footer-right__title {
+  color: #fff;
+}
 .footer-right__list {
   list-style: none;
   padding-left: 0;
+}
+.footer-right__items > a {
+    color: #a1a9b9;
 }
 /* /Footer right */
 
