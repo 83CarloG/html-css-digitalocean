@@ -26,6 +26,9 @@ a:hover {
   vertical-align: middle;
   margin-left: 5px;
 }
+.pointer {
+  cursor: pointer;
+}
 /* Button */
 .btn-navbar {
   padding: 8px 10px;
@@ -68,11 +71,11 @@ a:hover {
   left: 1%;
 }
 .btn-start {
-  padding: 8px 10px;
+  padding: 8px 12px;
   background-color: #fff;
   border: 1px solid #fff;
   border-radius: 5px;
-  color: ##0069FF;
+  color: #0069FF;
   font-weight: 700;
 }
 /* Button */
@@ -109,7 +112,6 @@ a:hover {
   color: #031B4F;
 }
 .navbar__link:hover {
-  text-decoration: none;
   color:#0069FF;
 }
 /* /Navbar */
@@ -132,6 +134,11 @@ a:hover {
   font-size: 3.5em;
   font-weight: 700;
   color: #fff;
+}
+@media screen and (max-width:768px) {
+  .jumbo__title{
+    font-size: 2.5em;
+  }
 }
 .jumbo__text {
   margin-bottom: 15px;
@@ -263,6 +270,9 @@ a:hover {
   color: #006aff;
   font-weight: 700;
 }
+.partner__link:hover {
+  color:#0069FF;
+}
 /* /Partner */
 
 /* Configuration */
@@ -389,5 +399,53 @@ a:hover {
 .footer-right__items > a {
     color: #a1a9b9;
 }
+.footer-right__items:hover > a {
+  color: white
+}
 /* /Footer right */
+/* Bot */
+.bot {
+  position: fixed;
+  bottom: 5%;
+  left: 5%;
+  }
+
+.bot__avatar {
+  position: relative;
+  width: 80px;
+  height: 80px;
+  background-image: url(../img/icone/bot.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-color: #006aff;
+  float: none;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+.bot__number {
+  position: absolute;
+  transform: translate(-50% -50%);
+  right: -10px;
+  top: -10px;
+  width: 30px;
+  height: 30px;
+  background: red;
+  border: 2px solid white;
+  border-radius: 100%;
+  font-weight: 700;
+  color: #fff;
+}
+.bot__body {
+  width: 350px;
+  margin-right: 95px;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 3px;
+  padding: 10px;
+  color: black;
+  font-weight: 400;
+}
+
+/* /Bot */
 /* /Footer */
