@@ -8,7 +8,8 @@ a:hover {
   text-decoration: none;
 }
 .wrapper-small {
-  max-width: 40%;
+  max-width: 60%;
+  min-width: 500px;
   margin: 0px auto;
 }
 @media screen and (max-width: 992px) {
@@ -20,9 +21,6 @@ a:hover {
   .wrapper-small {
     min-width: 100%;
   }
-}
-.wrapper-carousel {
-  position: relative
 }
 .fas-links {
   vertical-align: middle;
@@ -63,7 +61,6 @@ a:hover {
   color: #626262;
   font-size: 1.15;
   font-weight: 600;
-
 }
 .btn-google__icon {
   position: absolute;
@@ -128,7 +125,7 @@ a:hover {
   padding: 120px 0;
   background-image: url(../img/bg-jumbotron.svg);
   background-repeat: no-repeat;
-
+  background-position: bottom;
   background-size: cover;
 }
 .jumbo__title {
@@ -200,7 +197,55 @@ a:hover {
   font-size: 1.25em;
   color: #5c6a88;
 }
+/* Carousel */
+.carousel {
+  position: relative;
+  padding: 0 50px;
+}
+@media screen and (max-width: 768px) {
+  .carousel {
+    padding: 10px;
+  }
+}
+.carousel__arrow {
+  position: absolute;
+  transform: translateY(-50%);
+  font-size: 50px;
+  top: 50%;
+}
+.carousel__arrow--left {
+  left: 0;
+}
+.carousel__arrow--right {
+  right: 0;
+}
+.fas-carousel {
+  width: 50px;
+  height: 100px;
+  position: absolute;
+}
+.carousel__img {
+  max-height: 700px;
+}
+.carousel__photo {
+  width: 100%;
+}
+.carousel-circle {
+  margin: 20px 0;
+}
+.corousel-circle__img  {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border: 1px solid #006aff;
+  border-radius: 50%;
+}
+.corousel-circle__img--full {
+  background-color: #006aff;
+}
+/* /Carousel */
 /* /Mix Main */
+
 /* Partner */
 .partner-title {
   margin-bottom: 30px;
@@ -219,6 +264,7 @@ a:hover {
   font-weight: 700;
 }
 /* /Partner */
+
 /* Configuration */
 .configuration__list {
   list-style: none;
@@ -239,32 +285,14 @@ a:hover {
   font-weight: 400;
 }
 /* /Configuration */
+
 /* Developers */
-.fas-carousel {
-  width: 50px;
-  height: 100px;
-  position: absolute;
-}
-.carousel__img {
-  max-height: 700px;
-}
-.carousel-circle {
-  margin: 20px 0;
-}
-.corousel-circle__img  {
-  display: inline-block;
-  width: 10px;
-  height: 10px;
-  border: 1px solid #006aff;
-  border-radius: 50%;
-}
-.corousel-circle__img--full {
-  background-color: #006aff;
-}
+
 /* /Developers */
 /* Features */
 
 /* /Features */
+
 /* Customers */
 .customers__list {
   font-size: 0.8em;
@@ -291,15 +319,16 @@ a:hover {
   text-align: end;
 }
 /* /Customers */
+
 /* Teams */
 .rockerbox {
   width: 100%;
   background-color: #fff;
-  padding: 40px 0;
+  padding: 40px 10px;
 }
 .rockerbox__img {
   display: inline-block;
-  max-width: 250px;
+  max-width: 200px;
   margin-bottom: 20px;
 }
 .rockerbox__quote {
@@ -311,6 +340,7 @@ a:hover {
   font-weight: 700;
 }
 /* /Teams */
+
 /* Start */
 
 /* /Start */
@@ -322,6 +352,7 @@ a:hover {
   background-color: #031C4E;
   color: #a1a9b9;
 }
+
 /* Footer left */
 .footer-left {
   padding-left: -15px;
@@ -343,6 +374,7 @@ a:hover {
   color: #fff;
 }
 /* /Footer left */
+
 /* Footer right */
 .footer__right {
   margin-left: 30px;
@@ -358,5 +390,4 @@ a:hover {
     color: #a1a9b9;
 }
 /* /Footer right */
-
 /* /Footer */
